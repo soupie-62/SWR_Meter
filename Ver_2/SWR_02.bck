@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INDUCTOR
+D Inductor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+#End Doc Library
