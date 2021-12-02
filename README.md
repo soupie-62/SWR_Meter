@@ -11,4 +11,4 @@ At lower frequencies, the "stockton" circuit uses toroid transformers to sense t
 My circuit:
 I want to create coils from PCB tracks, keeping the Stockton design but eliminating the toroidal transformers. 
 
-![Stockton_pcb](https://user-images.githubusercontent.com/1888887/143829376-68e74985-3dfc-46a8-997c-b0437194ed19.png)
+![SWR_pcb_V2-3](https://user-images.githubusercontent.com/1888887/144377984-fb942a15-b0f3-4813-9c92-5a40ffaf1260.png)
