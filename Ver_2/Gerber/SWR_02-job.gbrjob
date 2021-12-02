@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.12)-1"
     },
-    "CreationDate":  "2021-11-29T19:24:28+10:30"
+    "CreationDate":  "2021-12-02T17:45:38+10:30"
   },
   "GeneralSpecs":
   {
@@ -20,7 +20,7 @@
     "Size":
     {
       "X": 99.110,
-      "Y": 96.570
+      "Y": 90.220
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -50,13 +50,23 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SWR_02-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
+      "Path":  "SWR_02-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SWR_02-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
       "Path":  "SWR_02-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "SWR_02-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
@@ -67,6 +77,14 @@
   ],
   "MaterialStackup":
   [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
     {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
@@ -85,8 +103,8 @@
       "Notes":  "Layer B.Cu"
     },
     {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
     }
   ]
 }
